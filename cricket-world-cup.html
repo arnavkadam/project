@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link id="style" rel="stylesheet" type="text/css" href="main.css">
+  <title>ICC Cricket World Cup 2023</title>
+
+  <script type="text/javascript">
+    function toggleStyleSheet() {
+      var currentStyle = document.getElementById("style");
+      if (currentStyle.getAttribute("href") == "main.css") {
+        currentStyle.setAttribute("href", "alternate.css");
+      }
+      else {
+        currentStyle.setAttribute("href", "main.css");
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="nav-bar">
+      <a href="./index.html">Home Page</a>
+      <a href="#section1">2023 Cricket World Cup Qulaifiers</a>
+      <a href="#section2">Previous Champions</a>
+    </div>
+  
+    <h1 class="page-header"> Cricket World Cup 2023</h1>
+  </header>
+
+  <div class="button-container">
+    <button onclick="toggleStyleSheet()"> CLICK HERE TO SWITCH STYLES </button>
+  </div>
+  
+  <br><br>
+
+  <img class="images" src="./images/logo.png" alt="World Cup logo">
+  <p>The ICC cricket world cup is a quadriennial tournament which will be hosted in India.
+    The 2023 world cup will be the 13th edition of the One Day International tournament. The tournament begins October
+    5th and the championship match will be on November 19th.
+    This format of the game is very competitive and will consist of 10 teams.
+  </p>
+
+
+
+  <section id="section1">
+    <h2>Qualified Teams</h2>
+    There are many teams that have tried to secure their spot in the 2023 World Cup, however only 10 teams managed to
+    qualify.
+    <ol type="I">
+      <li>Afghanistan</li>
+      <li>Australia</li>
+      <li>Bangladesh</li>
+      <li>England</li>
+      <li>India</li>
+      <li>Netherlands</li>
+      <li>New Zealand</li>
+      <li>Pakistan</li>
+      <li>South Africa</li>
+      <li>Sri Lanka</li>
+    </ol>
+  </section>
+  
+  <section id="section2">
+    <h2>Previous Champions</h2>
+    <img class="images" src="./images/champions.jpg" alt="2019 champions">
+    <p>
+      The previous edition of the cricket world cup was held in England, and after a nailbiting final, England were
+      crowned champions of the world in 2019.
+
+
+    </p>
+    <h3>List of most recent winners</h3>
+
+    <table>
+      <thead>
+      <tr>
+        <th>Year</th>
+        <th>Winner</th>
+        <th>Runner up</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2003</td>
+        <td>Australia</td>
+        <td>India</td>
+      </tr>
+      <tr>
+        <td>2007</td>
+        <td>Australia</td>
+        <td>Sri Lanka</td>
+      </tr>
+      <tr>
+        <td>2011</td>
+        <td>India</td>
+        <td>Sri Lanka</td>
+      </tr>
+      <tr>
+        <td>2015</td>
+        <td>Australia</td>
+        <td>New Zealand</td>
+      </tr>
+      <tr>
+        <td>2019</td>
+        <td>England</td>
+        <td>New Zealand</td>
+      </tr>
+    </tbody>
+    </table>
+    To see the winners from 1975 - 2023 <a href="https://www.careerpower.in/cricket-world-cup-winners-list.html" target="_blank">Click Here</a>
+    <br>
+    <img id="last-image" src="./images/trophy.jpg">
+  </section>
+
+  <footer>
+    &copy; 2023 USF Project
+  </footer>
+
+
+</body>
+
+</html>

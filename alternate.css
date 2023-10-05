@@ -1,0 +1,110 @@
+/* Main text color will be black */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: #F0F0F0;
+}
+  
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+h1{
+    font-size: 38px;
+}
+h2{
+    font-size: 34px;
+}
+h3{
+    font-size: 30px;
+}
+
+section{
+    background-color: #4F709C;
+}
+
+footer{
+    text-align: center;
+    background-color: #4F709C;
+}
+
+button {
+    background-color: #4F709C; 
+    border: black;
+    color: black;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: black;
+    color:white;
+}
+
+#last-image{
+    height: 40%;
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.page-header{
+    background-color: #4F709C;
+}
+
+.button-continer{
+    text-align: center;
+}
+
+.carousel img{
+    margin: 0px 30px;
+    height: 200px;
+    width: 200px;
+    display: inline;
+}
+
+.nav-bar {
+    background-color: #4F709C;
+    overflow: hidden;
+}
+
+
+.nav-bar a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+.nav-bar a:link{
+    color:black;
+}
+.nav-bar a:visited{
+    color: white;
+}
+
+.nav-bar a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+a:link {
+    color: green; 
+    text-decoration: none; 
+}
+  
+
+a:visited {
+    color: red; 
+}
+  
+
+a:hover {
+    color: purple; 
+}
+  

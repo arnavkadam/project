@@ -1,0 +1,126 @@
+body{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: #FFF2D8;
+}
+
+h1, h2, h3 {
+    font-family: "Verdana", sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 28px;
+}
+
+section{
+    background-color: #EAD7BB;
+}
+
+footer {
+    text-align: center;
+    background-color: #4e4942;
+    color: white;
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    border: 1px solid black; 
+}
+
+button {
+    background-color: #4e4942; 
+    border: black;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: white;
+    color:black;
+}
+
+#last-image{
+    height: 40%;
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.page-header{
+    text-align: center;
+    background-color: #4e4942;
+    color:white;
+}
+
+.button-container{
+    text-align: center;
+}
+
+.carousel img{
+    margin: 0px 10px;
+    height: 200px;
+    width: 200px;
+    display: inline;
+}
+
+.nav-bar {
+    background-color: #4e4942;
+    overflow: hidden;
+}
+
+.nav-bar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    text-decoration: none;
+}
+
+.nav-bar a:link{
+    color:white;
+}
+
+.nav-bar a:visited{
+    color: black;
+}
+
+.nav-bar a:hover {
+    background-color: white;
+    color: #000000;
+}
+
+a:link {
+    color: #ff0000; 
+    text-decoration: none; 
+}
+  
+a:visited {
+    color: #aa00ff; 
+    text-decoration: none;
+}
+  
+
+a:hover {
+    color: #ff9900; 
+    text-decoration: none;
+}
+ 
+
+
+
+
+
+

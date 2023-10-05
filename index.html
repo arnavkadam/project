@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="style" rel="stylesheet" type="text/css" href="main.css">
+    <title>Cricket</title>
+
+    <script type="text/javascript">
+        function toggleStyleSheet() {
+            var currentStyle = document.getElementById("style");
+            if (currentStyle.getAttribute("href") == "main.css") {
+                currentStyle.setAttribute("href", "alternate.css");
+            }
+            else {
+                currentStyle.setAttribute("href", "main.css");
+            }
+        }
+    </script>
+
+</head>
+
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <a href="#section1">What is Cricket</a>
+            <a href="#section2">Cricket Equipment</a>
+            <a href="#section3">Where is Cricket Played</a>
+            <a href="#section4">How to play Cricket</a>
+            <a href="#section5">Cricket World Cup</a>
+        </nav>
+
+        <h1 class="page-header">Cricket</h1>
+    </header>
+    
+    <div class="button-container">
+        <button onclick="toggleStyleSheet()"> CLICK HERE TO SWITCH STYLES </button>
+    </div>
+    
+    <hr>
+
+    <section id="section1">
+        
+        <h2>What is Cricket?</h2>
+        <article>
+            <p> Cricket is a bat-and-ball team sport that originated in England and is now popular in many countries
+                around the world, particularly in countries like India, Australia, England, and Pakistan. In cricket,
+                two teams, each consisting of 11 players, take turns batting and fielding. The batting team tries to
+                score runs by hitting the ball and running between two sets of wickets, while the fielding team tries
+                to dismiss the batsmen and limit the number of runs scored.
+            </p>
+            <p>Cricket is played on an oval-shaped field with a rectangular 22-yard-long pitch in the center. The game
+                has different formats, including Test matches, One Day Internationals (ODIs), and Twenty20 (T20) matches,
+                each with its own rules and duration. Cricket is known for its rich traditions, complex rules, and
+                strategies, and it often spans several hours or even days, making it a unique and deeply ingrained
+                part of the sporting culture in many countries.
+            </p>
+        </article>
+        For more information about cricket <a href="https://en.wikipedia.org/wiki/Cricket" target="_blank">Click
+            Here</a>
+
+    </section>
+
+    <hr>
+
+    <section id="section2">
+        <h2>Cricket Equipment</h2>
+        <ul>
+            <li><strong>Cricket Ball:</strong> The cricket ball is typically made of cork and covered with leather. It
+                is hard and durable, designed for fast bowling and spin. There are different types of cricket balls used
+                in various formats of the game, with red balls commonly used in Test matches and white balls in
+                limited-overs formats like ODIs and T20s.</li>
+            <br>
+            <li><strong>Cricket Bat:</strong> The cricket bat is made of wood, traditionally from willow, and consists
+                of a blade and a handle. Bats come in various sizes and shapes to suit a player's preference. The blade
+                is used for striking the ball, while the handle provides grip and control.</li>
+            <br>
+            <li><strong>Stumps and Bails:</strong> Stumps are three vertical wooden posts that are placed at each end of
+                the pitch. Bails are small wooden pieces that rest on top of the stumps. The stumps and bails are used
+                to define the wickets and are crucial for run-outs and dismissals.</li>
+            <br>
+            <li><strong>Cricket Pads:</strong> Also known as leg guards, cricket pads are worn by batsmen to protect
+                their legs from the impact of the ball. They consist of padded guards that wrap around the legs,
+                covering the shins and knees.</li>
+            <br>
+            <li><strong>Cricket Helmet:</strong> A cricket helmet is worn by batsmen and wicket-keepers to protect their
+                head from fast deliveries and bouncers. It includes a grill or visor to shield the face.</li>
+            <br>
+            <li><strong>Batting Gloves:</strong> Batting gloves are worn by batsmen to protect their hands and provide a
+                better grip on the bat. They are padded and offer protection to the fingers, palms, and knuckles.</li>
+            <br>
+            <li><strong>Wicket-keeping Gloves:</strong> Wicket-keeping gloves are designed for the wicket-keeper and
+                have additional padding on the fingers to help with catching the ball.</li>
+            <br>
+            <li><strong>Thigh Guard and Chest Guard:</strong> Batsmen may also wear additional protective equipment like
+                thigh guards and chest guards to safeguard vulnerable areas of their body from impact.</li>
+            <br>
+            <li><strong>Cricket Shoes:</strong> Cricket shoes have specialized spikes (usually rubber or metal) on the
+                sole to provide traction on the pitch. Proper footwear is essential for both batsmen and bowlers to
+                maintain balance and prevent injury.</li>
+            <br>
+            <li><strong>Cricket Clothing:</strong> Players typically wear white or colored cricket jerseys and trousers.
+                The clothing is designed to be comfortable and moisture-wicking. In limited-overs formats, players often
+                wear colored clothing.</li>
+            <br>
+            <li><strong>Umpire's Equipment:</strong> Umpires also have their equipment, which includes a hat or cap, a
+                set of light meters to measure the brightness of the light, and protective gear, including a chest guard
+                and shin guards.</li>
+        </ul>
+
+        <div class="carousel">
+            <img src="./images/cricket-ball.jpeg" alt="cricket ball">
+            <img src="./images/cricket-bat.jpeg" alt="cricket bat">
+            <img src="./images/cricket-wicket.jpeg" alt="wicket">
+            <img src="./images/cricket-equipment.jpeg" alt="cricket equipment">
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="section3">
+        <h2>Where is it commonly played?</h2>
+        <p>Cricket is commonly played in several countries around the world, with a strong following in the following
+            regions:
+            South Asia, Australia, England, West Indies, South Africa, New Zealand, Pakistan, Sri Lanka, Bangladesh.
+            While the above-mentioned regions are cricket's major strongholds, the sport is also played and followed in
+            various other countries, including Zimbabwe, Afghanistan, Ireland, and parts of the Middle East.</p>
+        <h3>Most played sports in each country</h3>
+        <img src="./images/cricket-map.jpeg" alt="cricket map">
+    </section>
+
+    <hr>
+
+    <section id="section4">
+        <h2>How to play Cricket?</h2>
+        <div class="video">
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/yPXAzgwwo0A"></iframe>
+        </div>
+    </section>
+
+    <hr>
+    <section id="section5">
+        <h2>Cricket World Cup</h2>
+        <a href="./cricket-world-cup.html">Click Here to find out more</a>
+    </section>
+    <br>
+    <br>
+    <footer>
+        &copy; 2023 USF Project
+    </footer>
+</body>
+
+</html>
